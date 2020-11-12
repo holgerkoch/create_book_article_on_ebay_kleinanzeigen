@@ -21,5 +21,5 @@ Dazu wird eine config.json Datei mit den Anzeigen generiert. Anschließend kann 
 2. download the script create_book_article_on_ebay_kleinanzeigen.py and place it in the same directory
 3. configure some values in create_book_article_on_ebay_kleinanzeigen.py
 - bookPrice = "1" for the default price, here 1€
-- configure the ebayKleinanzeigen.py call on the last line
+- configure the ebayKleinanzeigen.py call on the last line:
   os.system("C:\\Users\\ulrik\\AppData\\Local\\Programs\\Python\\Python39\\python.exe kleinanzeigen.py --profile config.json")
